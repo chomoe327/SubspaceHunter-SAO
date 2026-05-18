@@ -63,3 +63,4 @@ desktop.ini
 /vb*.bin
 /bakery_times.log
 
+.cardinal/settings.local.json

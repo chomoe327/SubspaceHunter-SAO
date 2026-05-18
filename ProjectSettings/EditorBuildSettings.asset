@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/PublicDemo/PublicScenes/AR.unity
     guid: 20604f73e8b3deb4d99709210a26fd54
   - enabled: 1
-    path: Assets/PublicDemo/PublicScenes/VR_BattleRoom.unity
+    path: Assets/PublicDemo/PublicScenes/All_Enemy.unity
     guid: db0057ecbd971094f805b7f8cbe2b57a
   - enabled: 1
     path: "Assets/PublicDemo/PublicScenes/74\u5C42boss\u623F.unity"
@@ -38,6 +38,9 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/PublicDemo/PublicScenes/\u5730\u72F1\u5E73\u53F0.unity"
     guid: 786101aa63bea4544afc88623e29733e
+  - enabled: 1
+    path: Assets/PublicDemo/PublicScenes/VR_BattleRoom.unity
+    guid: 315bd93e7dfa372469eb6ee2e18325e8
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e49876dcd5ecec64fb1295badfe09ef9, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5f029545fdbabcc42bd3613e7b25b0d6, type: 2}
