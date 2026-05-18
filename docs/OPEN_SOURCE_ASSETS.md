@@ -12,10 +12,10 @@ This Unity project contains a large amount of third-party and binary content. Do
 
 Use this split:
 
-1. Keep source code, project settings, package manifests, small configs, and open-source-safe prefabs/scenes in Git.
-2. Put large binary assets in Git LFS when they are required to open or run the demo.
-3. Do not commit paid Asset Store packages, copyrighted character/media assets, or redistributable files whose licenses are unclear.
-4. For optional large demo content, publish separate downloadable archives in GitHub Releases or an external storage bucket.
+1. Keep source code, project settings, package manifests, small configs, and open-source-safe placeholders in Git.
+2. Publish large approved binary assets as external `.unitypackage` downloads instead of treating Git LFS as the long-term asset store.
+3. Use Git LFS only as a temporary bridge when a critical asset must stay in the public repository during migration.
+4. Do not commit paid Asset Store packages, copyrighted character/media assets, or redistributable files whose licenses are unclear.
 5. Provide a small replacement asset set for open-source builds when original assets cannot be redistributed.
 
 ## Asset folders needing license review
@@ -54,7 +54,7 @@ ProjectSettings/
 docs/
 ```
 
-`Assets/PublicDemo/PublicScenes/` is included through Git LFS because the scene files are important project content. The scenes are not self-contained yet; their external asset dependencies are tracked in `docs/PUBLIC_DEMO_DEPENDENCIES.zh-CN.md`.
+`Assets/PublicDemo/PublicScenes/` is currently included through Git LFS because the scene files are important project content. This is a transition state, not the intended long-term storage model. The target model is documented in `docs/EXTERNAL_ASSET_PACKAGES.md`, and the current scene dependencies are tracked in `docs/PUBLIC_DEMO_DEPENDENCIES.zh-CN.md`.
 
 Optional or restricted assets should be replaced with placeholders, moved to a separate private archive, or provided through documented import steps.
 

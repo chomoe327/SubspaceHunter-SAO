@@ -6,7 +6,7 @@ SubspaceHunter-SAO is an open-source Unity XR action game framework inspired by 
 
 This public repository currently focuses on the Unity project configuration and shareable source code. The full local project contains many large binary assets and third-party or copyrighted resources that need license review before redistribution.
 
-See [docs/OPEN_SOURCE_ASSETS.md](docs/OPEN_SOURCE_ASSETS.md) for the asset policy and Git LFS notes.
+See [docs/OPEN_SOURCE_ASSETS.md](docs/OPEN_SOURCE_ASSETS.md) for the asset policy and [docs/EXTERNAL_ASSET_PACKAGES.md](docs/EXTERNAL_ASSET_PACKAGES.md) for the intended release architecture.
 
 ## Unity version
 
@@ -31,7 +31,7 @@ See [docs/OPEN_SOURCE_ASSETS.md](docs/OPEN_SOURCE_ASSETS.md) for the asset polic
 
 ## Opening the project
 
-This repository is not yet a complete playable checkout. The public demo scenes are included, but many referenced models, prefabs, sounds, fonts, SDKs, and effects are intentionally omitted until their redistribution rights are confirmed. To run the original project, restore the required asset folders from a licensed local copy, then open it with Unity `2021.3.45f1`.
+This repository is not yet a complete playable checkout. The public demo scenes are currently included as a transition step, but the long-term plan is to distribute large approved assets as external `.unitypackage` files and document separately installed dependencies. To run the original project today, restore the required asset folders from a licensed local copy, then open it with Unity `2021.3.45f1`.
 
 ## Notes for contributors
 

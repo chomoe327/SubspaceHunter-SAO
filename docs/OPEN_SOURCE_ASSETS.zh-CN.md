@@ -12,10 +12,10 @@
 
 建议采用下面的拆分方式：
 
-1. 将源代码、项目设置、包清单、小配置文件、确认可开源的 prefab/scene 放入 Git。
-2. 必须用于打开或运行 Demo 的大型二进制资源，确认可再分发后再放入 Git LFS。
-3. 不要提交付费 Asset Store 包、版权角色/媒体资源、授权不明确的可再分发文件。
-4. 对可选的大型 Demo 内容，使用 GitHub Releases 或外部存储单独发布压缩包。
+1. 将源代码、项目设置、包清单、小配置文件和可开源的占位资源放入 Git。
+2. 已确认可再分发的大型二进制资源，长期应通过外部 `.unitypackage` 下载包发布，而不是把 Git LFS 当作资源仓库。
+3. Git LFS 只作为迁移期过渡手段，用于暂时保留少量关键资源。
+4. 不要提交付费 Asset Store 包、版权角色/媒体资源、授权不明确的可再分发文件。
 5. 对不能公开的原始资源，提供一套小型替代资源用于开源构建。
 
 ## 需要授权审查的资源目录
@@ -54,7 +54,7 @@ ProjectSettings/
 docs/
 ```
 
-`Assets/PublicDemo/PublicScenes/` 因为是重要项目内容，会通过 Git LFS 纳入公开仓库。当前这些场景还不是自包含 Demo，外部依赖审计见 `docs/PUBLIC_DEMO_DEPENDENCIES.zh-CN.md`。
+`Assets/PublicDemo/PublicScenes/` 目前因为是重要项目内容，暂时通过 Git LFS 纳入公开仓库。这个状态只是过渡方案，不是长期目标。长期发布架构见 `docs/EXTERNAL_ASSET_PACKAGES.zh-CN.md`，当前场景依赖审计见 `docs/PUBLIC_DEMO_DEPENDENCIES.zh-CN.md`。
 
 可选或受限资源应替换为占位资源、移动到单独的私有归档，或在文档中说明导入步骤。
 
