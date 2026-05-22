@@ -73,6 +73,11 @@ https://www.bilibili.com/video/BV1mW421X7jg/<br>
 3.载资产Unitypackage包，链接: https://pan.baidu.com/s/15FRPMi91qJzsarMVTewV6g?pwd=bx4w 提取码: bx4w <br>
 4.将unitypackage导入项目<br>
 
+## Cardianl AI | 世界模型驱动的3D可交互内容生成Agent
+
+1.官网：https://www.cardinal-agi.com/<br>
+2.效果演示：https://www.bilibili.com/video/BV18ERbBNENp/<br>
+
 ## 贡献注意事项
 
 - 不要提交 `Library/`、`Temp/`、`Logs/`、`UserSettings/`、`.csproj` 或 `.sln` 文件。
