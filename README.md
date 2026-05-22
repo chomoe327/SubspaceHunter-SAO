@@ -1,10 +1,14 @@
 # SubspaceHunter-SAO
 
-中文 | [English](README.en.md)
+<p align="center">
+中文 | <a href="README.en.md">English</a>
+</p>
 
 SubspaceHunter-SAO 是一个开源的可商用的 Unity XR(VR+MR) 动作游戏项目框架以及可商用的原创美术资产、代码、特效、UI等；围绕类似 SAO 风格的交互、战斗和场景体验进行开源与教学。
 
-<img src="docs/images/readme-hero.png" alt="SubspaceHunter-SAO 项目封面" width="100%">
+<p align="center">
+  <img src="docs/images/readme-hero.png" alt="SubspaceHunter-SAO 项目 Logo" width="720">
+</p>
 
 ## 通过本项目你将学会/获得
 1.如何构建支持Meta Quest等XR一体机应用的开发、环境设置
