@@ -1,6 +1,8 @@
 # SubspaceHunter-SAO
 
-[中文](README.md) | English
+<h3 align="center">
+<a href="README.md">中文</a> | English
+</h3>
 
 SubspaceHunter-SAO is an open-source Unity XR action game framework inspired by SAO-style interaction and combat. The repository is being prepared in stages so the code can be shared safely while large assets and third-party content are reviewed.
 
