@@ -8,31 +8,11 @@
 
 - Hexin Wang
 
-## 如何通过 GitHub 网页加入名单
 
-这个流程不需要安装 Git，也不需要命令行。
 
-1. 登录自己的 GitHub 账号。
-2. 打开本文件：`docs/CONTRIBUTORS.zh-CN.md`。
-3. 点击页面右上角的铅笔图标 `Edit this file`。
-4. 在“贡献者名单”下面新增一行，例如：
 
-   ```md
-   - Your Name / @your-github-name
-   ```
 
-5. 页面底部填写提交信息，例如：
 
-   ```text
-   Add contributor record for Your Name
-   ```
-
-6. 选择 GitHub 推荐的 fork / branch 方式提交修改。
-7. 点击 `Propose changes`。
-8. 点击 `Create pull request`。
-9. 等待仓库维护者合并。
-
-PR 合并后，你的 GitHub 账号会作为这次修改的提交者出现在仓库提交历史中。GitHub 的 Contributors 统计可能不会立刻刷新，通常需要等待一段时间。
 
 ## 填写格式建议
 
