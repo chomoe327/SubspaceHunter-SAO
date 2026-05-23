@@ -49,6 +49,8 @@ Heathcliff, The Gleam Eyes, Kobold Lord, stone golem, man-eating flower, Nicolas
 
 <img src="docs/images/readme-third-party-assets.png" alt="SubspaceHunter-SAO third-party and IP-related asset showcase" width="100%">
 
+<img src="docs/images/readme-sao-scenes.png" alt="SubspaceHunter-SAO SAO scene asset showcase" width="100%">
+
 ## Third-Party Asset Packages Require Authorization for Commercial Use
 
 When the project involves third-party asset packages, plugins, SDKs, and libraries, users must confirm the authorization scope, purchase status, and redistribution terms before commercial use. The current audit checklist is available at [docs/THIRD_PARTY_ASSET_PACKAGES.zh-CN.md](docs/THIRD_PARTY_ASSET_PACKAGES.zh-CN.md).

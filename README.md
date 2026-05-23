@@ -53,6 +53,8 @@ https://www.bilibili.com/video/BV1mW421X7jg/<br>
 
 <img src="docs/images/readme-third-party-assets.png" alt="SubspaceHunter-SAO 第三方资产与 IP 相关资产展示" width="100%">
 
+<img src="docs/images/readme-sao-scenes.png" alt="SubspaceHunter-SAO SAO 场景资产展示" width="100%">
+
 ## 第三方资产Package如需商业化需取得授权
 
 项目中涉及第三方资产包、插件、SDK 和库时，商业化前需要由使用者自行确认授权范围、购买状态和再分发条款。当前审计清单见 [docs/THIRD_PARTY_ASSET_PACKAGES.zh-CN.md](docs/THIRD_PARTY_ASSET_PACKAGES.zh-CN.md)。
